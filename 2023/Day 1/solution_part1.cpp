@@ -15,20 +15,20 @@ int main() {
 
     while (std::getline(file, line)) {
            left  = 0;
-	         right = line.size()-1;
+           right = line.size()-1;
 
-	         while (!std::isdigit(line[left])) left++;
+	   while (!std::isdigit(line[left])) left++;
            while (!std::isdigit(line[right])) right--;
         
-   	       if (left == right) {
-	             if (std::isdigit(line[left]))
- 		               sum += ((line[left] - '0') * 10 + (line[left] - '0'));
+   	   if (left == right) {
+	       if (std::isdigit(line[left]))
+ 		   sum += ((line[left] - '0') * 10 + (line[left] - '0'));
                else
- 		               sum += ((line[right] - '0') * 10 + (line[right] - '0'));
-	         }
-	         else {
+ 		   sum += ((line[right] - '0') * 10 + (line[right] - '0'));
+	   }
+	   else {
                sum += ((line[left] - '0') * 10) + (line[right] - '0');	   
-	         }    
+	   }    
     } 
 
     std::cout << "Final sum: " << sum << '\n';
