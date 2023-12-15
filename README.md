@@ -1,2 +1,3 @@
 # Advent_of_Code
-Advent of Code [https://adventofcode.com/]
+
+This repository contains my annual attempts at [Advent of Code](https://adventofcode.com/)
