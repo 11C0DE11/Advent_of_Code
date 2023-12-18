@@ -47,6 +47,6 @@ What is the sum of all of the calibration values?
 
 ## Thoughts
 
-For part 1 of the problem I used a two pointer approach, the code uses a pointer to the start and end of each line, to detect the first numerical digit.
+- For part 1 of the problem I used a two pointer approach, the code uses a pointer to the start and end of each line, to detect the first numerical digit.
 
-For part 1 of the problem I used a [Trie](https://en.wikipedia.org/wiki/Trie), my code parses every numerical digit (1-9) and alphabetical word that corresponds to a number ("one"-"nine"). A [Trie](https://en.wikipedia.org/wiki/Trie) may be an overkill for the problem and various aspects of my code could be improved. However, for this solution I wanted to try and apply a trie even if it did stray away from the problem description. An alternative and simple approach for this problem is to simply check for every substring (1-9 and "one"-"nine") for each line in the file.
+- For part 1 of the problem I used a [Trie](https://en.wikipedia.org/wiki/Trie), my code parses every numerical digit (1-9) and alphabetical word that corresponds to a number ("one"-"nine"). A [Trie](https://en.wikipedia.org/wiki/Trie) may be an overkill for the problem and various aspects of my code could be improved. However, for this solution I wanted to try and apply a trie even if it did stray away from the problem description. An alternative and simple approach for this problem is to simply check for every substring (1-9 and "one"-"nine") for each line in the file.
