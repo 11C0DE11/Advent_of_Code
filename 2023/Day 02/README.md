@@ -54,4 +54,5 @@ For each game, find the minimum set of cubes that must have been present. What i
 
 ## Thoughts
 
-This day was interesting, I tried to implement a custom parsing approach where I tried to go over each character only once using simple iteration and string manipulation. I tried to keep my approach as simple as possible, in the future I will try to use more Cplusplus-ey methods and ways of doing things. 
+- This day was interesting, I tried to implement a custom parsing approach where I tried to go over each character only once using simple iteration and string manipulation.
+- I tried to keep my approach as simple as possible, in the future I will try to use more Cplusplus-ey methods and ways of doing things. 
